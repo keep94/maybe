@@ -332,11 +332,11 @@ func (m Uint64) String() string {
   return fmt.Sprintf("Just %d", m.Value)
 }
 
-// Float32 represents an float32 value or nothing. The zero value is nothing.
+// Float32 represents a float32 value or nothing. The zero value is nothing.
 type Float32 struct {
   // The float32 value 
   Value float32
-  // True if this instance represents an float32,
+  // True if this instance represents a float32,
   // false if it represents nothing.
   Valid bool
 }
@@ -365,11 +365,11 @@ func (m Float32) String() string {
   return fmt.Sprintf("Just %f", m.Value)
 }
 
-// Float64 represents an float64 value or nothing. The zero value is nothing.
+// Float64 represents a float64 value or nothing. The zero value is nothing.
 type Float64 struct {
   // The float64 value 
   Value float64
-  // True if this instance represents an float64,
+  // True if this instance represents a float64,
   // false if it represents nothing.
   Valid bool
 }
@@ -398,11 +398,11 @@ func (m Float64) String() string {
   return fmt.Sprintf("Just %f", m.Value)
 }
 
-// String represents an string value or nothing. The zero value is nothing.
+// String represents a string value or nothing. The zero value is nothing.
 type String struct {
   // The string value 
   Value string
-  // True if this instance represents an string,
+  // True if this instance represents a string,
   // false if it represents nothing.
   Valid bool
 }
@@ -431,11 +431,11 @@ func (m String) String() string {
   return fmt.Sprintf("Just %s", m.Value)
 }
 
-// Bool represents an bool value or nothing. The zero value is nothing.
+// Bool represents a bool value or nothing. The zero value is nothing.
 type Bool struct {
   // The bool value 
   Value bool
-  // True if this instance represents an bool,
+  // True if this instance represents a bool,
   // false if it represents nothing.
   Valid bool
 }
