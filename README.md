@@ -3,8 +3,8 @@ maybe
 
 Provides optional values in go.
 
-This is a draft API and should be treated as such. It may change in
-incompatible ways.
+This API is stable. Newly added API that is not yet stable will be clearly
+marked as draft API.
 
 Representing optional values as pointers can create many small chunks on the
 heap. This package represents optional values without heap allocations.
