@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file or
 // at http://opensource.org/licenses/BSD-3-Clause.
 
-package maybe_test;
+package maybe_test
 
 import (
   "github.com/keep94/maybe"
@@ -222,6 +222,6 @@ func TestMaybeString(t *testing.T) {
 
 func verifyString(t *testing.T, expected, actual string) {
   if expected != actual {
-    t.Errorf("Expected %s, got %s", expected, actual);
+    t.Errorf("Expected %s, got %s", expected, actual)
   }
 }
